@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Stevetanus.github.io/Markdown-blog",
   "name": "markdown-blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon server.js"
   },
@@ -22,6 +25,7 @@
     "slugify": "^1.6.5"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "nodemon": "^2.0.15"
   }
 }
