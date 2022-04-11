@@ -7,6 +7,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon server.js"
   },
@@ -22,6 +23,7 @@
     "marked": "^4.0.12",
     "method-override": "^3.0.0",
     "mongoose": "^6.2.9",
+    "react-scripts": "^5.0.0",
     "slugify": "^1.6.5"
   },
   "devDependencies": {
